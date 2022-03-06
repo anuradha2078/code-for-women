@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5rem;
+}
+
+input {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 1rem;
+}

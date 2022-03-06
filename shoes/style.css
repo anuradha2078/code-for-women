@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.card {
+  height: 80%;
+  width: 430px;
+  border-radius: 25px;
+  box-shadow: 0 20px 50px #0005, 0 10px 50px #0005;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.shoes {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.shoes img {
+  width: 60%;
+  padding-top: 1rem;
+}
+
+.shoes .circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 79, 66, 0.75),
+    rgba(8, 83, 153, 0.75)
+  );
+  position: absolute;
+  z-index: -1;
+}
+
+.info {
+  padding: 0.5rem 3rem;
+  margin-top: 4rem;
+}
+.info h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.info p {
+  font-size: 1.2rem;
+  color: #4c4d4f;
+}
+.info .size {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.info .size a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1.6rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 10px #0005;
+}
+.info .size a.active {
+  background: #333;
+  color: #fff;
+}
+.info .purchase {
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}

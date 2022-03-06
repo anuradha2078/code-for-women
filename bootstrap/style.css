@@ -1,0 +1,12 @@
+.loading {
+  animation: loading 10s ease;
+}
+
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  100% {
+   width: 100%;
+  }
+}

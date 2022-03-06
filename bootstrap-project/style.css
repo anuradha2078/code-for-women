@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section#home {
+  padding-top: 5rem;
+  padding-bottom: 0;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.home-content {
+  padding-bottom: 6rem;
+}
+
+.about-content ul {
+  list-style: none;
+}
+.owl-carousel div.testimonial-box img{
+  width: 20%;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+@media (min-width: 768px) {
+  .home-content {
+    padding-top: 6rem;
+    padding-bottom: 0;
+  }
+  .owl-carousel div.testimonial-box img{
+    width: 5%;
+}
+}
